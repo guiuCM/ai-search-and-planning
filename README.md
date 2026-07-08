@@ -27,3 +27,6 @@ Modeling and solving an automated planning problem for intelligent agents operat
 * **Execution:** Run the FF planner via CLI by passing the domain and generated problem files:
   ```bash
   ./bin/ff.exe -o domains/domini_base.pddl -f problems/problema_base.pddl
+
+---
+*Developed as part of the Cryptography coursework at UPC (Universitat Politècnica de Catalunya).*
