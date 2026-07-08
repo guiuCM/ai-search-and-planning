@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.4
+Created-By: 1.7.0_25-mockbuild_2013_06_19_07_25-b00 (Oracle Corporatio
+ n)
+Class-Path: lib/swing-layout-1.0.4.jar lib/appframework-1.0.3.jar lib/
+ swing-worker-1.1.jar lib/gnujaxp.jar lib/iText-2.1.5.jar lib/jcommon-
+ 1.0.16.jar lib/jfreechart-1.0.13-experimental.jar lib/jfreechart-1.0.
+ 13-swt.jar lib/jfreechart-1.0.13.jar lib/junit.jar lib/servlet.jar li
+ b/swtgraphics2d.jar
+X-COMMENT: Main-Class will be added automatically by build
+Main-Class: Demos.Chooser
+

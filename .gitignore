@@ -1,0 +1,21 @@
+# Brossa de Java
+*.class
+*.jar
+out/
+javadoc/
+
+# Brossa d'IDEs
+.idea/
+.vscode/
+*.iml
+
+# Fitxers de sistema i temporals
+.DS_Store
+Thumbs.db
+.~lock.*
+
+# Executables i Binaris
+*.exe
+*.dll
+!**/bin/ff.exe
+!**/bin/cygwin1.dll

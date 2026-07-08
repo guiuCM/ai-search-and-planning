@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4/"
+     xml:base="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-4="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#distancia -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#distancia">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Vivenda"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Barcelona"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#oferta_adecuada -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#oferta_adecuada">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Persona"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Vivenda"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Ascensor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Ascensor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Vivenda"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Cotxe -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Cotxe">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Persona"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Edat -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Edat">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Persona"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Nom -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Nom">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Barcelona"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Persona"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Num_persones -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Num_persones">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Persona"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Preu -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Preu">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Vivenda"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Preu_estricte -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Preu_estricte">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Persona"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Preu_max -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Preu_max">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Persona"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Preu_min -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Preu_min">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Persona"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Punts_interes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Punts_interes">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Barcelona"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Persona"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>El nom del tipus del punt d&apos;interes e.x. supermercat</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Sexe -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Sexe">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Persona"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Superficie -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Superficie">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Vivenda"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Tipus_solicitant -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Tipus_solicitant">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Persona"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Transport -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Transport">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Persona"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#balco -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#balco">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Vivenda"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#coord_x -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#coord_x">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Barcelona"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Vivenda"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#coord_y -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#coord_y">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Barcelona"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Vivenda"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#n_dormitoris_dobles -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#n_dormitoris_dobles">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Vivenda"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#n_dormitoris_simples -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#n_dormitoris_simples">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Vivenda"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#terrassa -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#terrassa">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Vivenda"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Barcelona -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Barcelona"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Duplex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Duplex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Pis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Persona -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Persona"/>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Pis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Pis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Vivenda"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Pis_normal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Pis_normal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Pis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Unifamiliar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Unifamiliar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Vivenda"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Vivenda -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/abel/ontologies/2025/10/untitled-ontology-4#Vivenda"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
