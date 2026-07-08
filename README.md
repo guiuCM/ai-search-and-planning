@@ -29,4 +29,4 @@ Modeling and solving an automated planning problem for intelligent agents operat
   ./bin/ff.exe -o domains/domini_base.pddl -f problems/problema_base.pddl
 
 ---
-*Developed as part of the Cryptography coursework at UPC (Universitat Politècnica de Catalunya).*
+*Developed as part of the AI coursework at UPC (Universitat Politècnica de Catalunya).*
